@@ -156,43 +156,43 @@
     <Content Include="Themes.WPF.targets" />
    
     <Reference Include="DevExpress.Printing.v18.2.Core">
-      <HintPath>..\packages\YshXaf.DevExpress.Printing.Core_yesfree.18.2.5\lib\net40\DevExpress.Printing.v18.2.Core.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Printing.Core_yesfree.18.2.5\lib\net40\DevExpress.Printing.v18.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Data_yesfree.18.2.5\lib\net40\DevExpress.Data.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Data_yesfree.18.2.5\lib\net40\DevExpress.Data.v18.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DemoData.v18.2.Core">
-      <HintPath>..\packages\YshXaf.DevExpress.DemoData.Core_yesfree.18.2.5\lib\net40\DevExpress.DemoData.v18.2.Core.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.DemoData.Core_yesfree.18.2.5\lib\net40\DevExpress.DemoData.v18.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DemoData.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.DemoData_yesfree.18.2.5\lib\net40\DevExpress.DemoData.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.DemoData_yesfree.18.2.5\lib\net40\DevExpress.DemoData.v18.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Charts.v18.2.Core">
-      <HintPath>..\packages\YshXaf.DevExpress.Charts.Core_yesfree.18.2.5\lib\net40\DevExpress.Charts.v18.2.Core.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Charts.Core_yesfree.18.2.5\lib\net40\DevExpress.Charts.v18.2.Core.dll</HintPath>
     </Reference>    
      <Reference Include="DevExpress.Map.v18.2.Core">
-      <HintPath>..\packages\YshXaf.DevExpress.Map.Core_yesfree.18.2.5\lib\net40\DevExpress.Map.v18.2.Core.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Map.Core_yesfree.18.2.5\lib\net40\DevExpress.Map.v18.2.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.Core.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Core.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Xpf.Core_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Core.v18.2.dll</HintPath>
     </Reference>    
     <Reference Include="DevExpress.Xpf.Charts.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Charts_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Charts.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Xpf.Charts_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Charts.v18.2.dll</HintPath>
     </Reference>     
     <Reference Include="DevExpress.Xpf.Gauges.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Gauges_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Gauges.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Xpf.Gauges_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Gauges.v18.2.dll</HintPath>
     </Reference>     
    <Reference Include="DevExpress.Xpf.Map.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Xpf.Map_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Map.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Xpf.Map_yesfree.18.2.5\lib\net40\DevExpress.Xpf.Map.v18.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Mvvm.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Mvvm_yesfree.18.2.5\lib\net40\DevExpress.Mvvm.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Mvvm_yesfree.18.2.5\lib\net40\DevExpress.Mvvm.v18.2.dll</HintPath>
     </Reference>       
    <Reference Include="DevExpress.Xpf.DemoBase.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Xpf.DemoBase_yesfree.18.2.5\lib\net40\DevExpress.Xpf.DemoBase.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Xpf.DemoBase_yesfree.18.2.5\lib\net40\DevExpress.Xpf.DemoBase.v18.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpf.LayoutControl.v18.2">
-      <HintPath>..\packages\YshXaf.DevExpress.Xpf.LayoutControl_yesfree.18.2.5\lib\net40\DevExpress.Xpf.LayoutControl.v18.2.dll</HintPath>
+      <HintPath>packages\YshXaf.DevExpress.Xpf.LayoutControl_yesfree.18.2.5\lib\net40\DevExpress.Xpf.LayoutControl.v18.2.dll</HintPath>
     </Reference>    
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Debug' OR '$(Configuration)' == 'Release' ">
