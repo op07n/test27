@@ -188,9 +188,6 @@
     <Reference Include="DevExpress.Mvvm.v18.2">
       <HintPath>packages\YshXaf.DevExpress.Mvvm_yesfree.18.2.5\lib\net40\DevExpress.Mvvm.v18.2.dll</HintPath>
     </Reference>       
-   <Reference Include="DevExpress.Xpf.DemoBase.v18.2">
-      <HintPath>packages\YshXaf.DevExpress.Xpf.DemoBase_yesfree.18.2.5\lib\net40\DevExpress.Xpf.DemoBase.v18.2.dll</HintPath>
-    </Reference>
     <Reference Include="DevExpress.Xpf.LayoutControl.v18.2">
       <HintPath>packages\YshXaf.DevExpress.Xpf.LayoutControl_yesfree.18.2.5\lib\net40\DevExpress.Xpf.LayoutControl.v18.2.dll</HintPath>
     </Reference>    
