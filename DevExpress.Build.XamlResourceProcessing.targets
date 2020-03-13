@@ -1,0 +1,23 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="DevExpress.Build.XamlResourceProcessing.XamlResourceProcessingTask" AssemblyName="DevExpress.Build.XamlResourceProcessing.v18.1, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=79868b8147b5eae4"/>
+  <Target Name="CorrectEmbededResources" Condition="'@(MainEmbeddedFiles)' != ''">
+    <XamlResourceProcessingTask ResourceFiles="@(MainEmbeddedFiles)" SourceFiles="@(Page)" OutputPath="$(IntermediateOutputPath)" SourceCodeFiles="@(Compile)">
+      <Output ItemName="MainEmbeddedFiles" TaskParameter="ResourceFiles" />
+    </XamlResourceProcessingTask>
+  </Target>
+  <Target DependsOnTargets="CorrectEmbededResources" Name="MainResourcesGeneration" Inputs="@(MainEmbeddedFiles)" Outputs="$(IntermediateOutputPath)$(_ResourceNameInMainAssembly)" Condition="'@(MainEmbeddedFiles)' != ''">
+    <Message Text="(in) EmbeddedFiles: '@(MainEmbeddedFiles)'" Condition="'$(MSBuildTargetsVerbose)'=='true'" />
+    <ResourcesGenerator ResourceFiles="@(MainEmbeddedFiles)" OutputPath="$(IntermediateOutputPath)" OutputResourcesFile="$(IntermediateOutputPath)$(_ResourceNameInMainAssembly)" Condition="'@(MainEmbeddedFiles)' != ''">
+      <!-- Put the generated files in item FileWrites so that they can be cleaned up appropriately in a next Rebuild -->
+      <Output ItemName="FileWrites" TaskParameter="OutputResourcesFile" />
+    </ResourcesGenerator>
+    <ItemGroup>
+      <EmbeddedResource Include="$(IntermediateOutputPath)$(_ResourceNameInMainAssembly)">
+        <GenerateResource>false</GenerateResource>
+        <Type>Resx</Type>
+        <WithCulture>false</WithCulture>
+        <OutputResource>$(IntermediateOutputPath)$(_ResourceNameInMainAssembly)</OutputResource>
+      </EmbeddedResource>
+    </ItemGroup>
+  </Target>
+</Project>
